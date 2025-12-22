@@ -11,7 +11,7 @@ import SwiftUI
 struct NentsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(title: "Tap Me", action: { print("Continue tapped") })
         }
     }
 }
